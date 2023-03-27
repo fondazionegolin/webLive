@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golinelli Live Virtual Experience</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://rsms.me/">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="script.js"></script>
+  <script src="slideshow.js"></script>
+  
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  
+  
+
+  <div class="logo-container left">
+      <img src="live.png" alt="Logo left">
+    </div>
+    <div class="logo-container right">
+      <img src="Logo.png" alt="Logo right">
+    </div> 
+    
+    <header>
+      <nav class="header-menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">VIDEO</a></li>
+          <li><a href="#">Tutorial</a></li>
+          <li><a href="#">Scarica</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="#">Richiedi una demo</a></li>
+        </ul>
+    
+      </nav>
+    </div>
+  </header>
+  
+  
+  <main>
+
+    <div class="slideshow-container">
+     <div class="slideshow-slide">
+      <div class="slideshow-img">
+       <img src="laboratorio2.png">
+     </div>
+    </div>
+
+     <div class="slideshow-slide">
+      <div class="slideshow-img">
+       <video src="video-gif.mp4">
+     </div>
+    </div>
+     <div class="slideshow-slide">
+      <div class="slideshow-img">
+      <img src="live.png">
+    </div>
+    </div>
+     
+     <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+     <a class="next" onclick="changeSlide(1)">&#10095;</a>
+     <div class="dots-container">
+       <span class="dot" onclick="currentSlide(1)"></span>
+       <span class="dot" onclick="currentSlide(2)"></span>
+       <span class="dot" onclick="currentSlide(3)"></span>
+     </div>
+   </div>
+
+    <section>
+      <h2>Cos'è?</h2>
+      <p>Il nostro prodotto è stato progettato per aiutare gli studenti di scuola superiore a imparare in modo innovativo ed efficace. Grazie alla nostra piattaforma di realtà virtuale, gli studenti possono fare simulazioni di laboratorio interattive e realistiche senza dover uscire dalla propria classe.</p>
+    
+      
+    </section>
+    
+    <section>
+      <h2>Come si usa in classe?</h2>
+      <p>L'utilizzo di Golinelli Live Virtual Experience è molto semplice e intuitivo. Gli insegnanti possono utilizzare la piattaforma per integrare le simulazioni di laboratorio all'interno del loro programma di insegnamento. Gli studenti possono accedere alle simulazioni tramite un dispositivo di realtà virtuale e interagire con gli oggetti virtuali come se fossero reali.</p>
+      
+    </section>
+    
+    <section>
+      <h2>Come si acquista?</h2>
+      <p>Per acquistare la piattaforma Golinelli Live Virtual Experience, è possibile contattare il nostro team di vendita tramite il modulo di contatto qui sotto. Saremo lieti di fornirti tutte le informazioni necessarie e aiutarti a scegliere il pacchetto più adatto alle tue esigenze.</p>
+
+<!-- <div id="form" style="display:none;">   -->
+  
+  <form>
+    <div>
+    <input type="text" id="nome" name="nome" placeholder="Nome" required><br><br>   
+    <input type="email" id="email" name="email" placeholder="E-mail" required><br><br>
+  </div>
+  
+  <div>
+      <input type="text" id="cognome" name="cognome" placeholder="Cognome" required><br><br>
+    <input type="text" id="istituto" name="istituto" placeholder="Istituto d'appartenza" required><br><br>
+  </div>
+
+  <div>
+
+    <input type="submit" value="Invia">
+  </div>
+</form>
+</div>
+<!-- 
+<script>
+function showForm() {
+  var form = document.getElementById("form");
+  if (form.style.display === "none") {
+    form.style.display = "block";
+  } else {
+    form.style.display = "none";
+  }
+}
+</script>*/
+-->
+    
+    </section>
+    
+    <div class="fixed-button">
+      <a href="mailto:a.saracino@fondazionegolinelli.it">Contattaci</a>
+    </div>
+    
+    
+  </main>
+  
+  <footer>
+    
+  </footer>
+</body>
+</html>
